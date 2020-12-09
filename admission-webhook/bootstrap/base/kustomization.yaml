@@ -12,7 +12,7 @@ namePrefix: admission-webhook-bootstrap-
 images:
 - name: gcr.io/kubeflow-images-public/ingress-setup
   newName: gcr.io/kubeflow-images-public/ingress-setup
-  newTag: latest
+  newTag: 1.1.0
 generatorOptions:
   disableNameSuffixHash: true
 configurations:
